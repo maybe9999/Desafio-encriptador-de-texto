@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio: Encriptador</title>
+</head>
+<body>
+    <header class="cabecera">
+        <img src="./assets/alura-logo.svg" alt="Logo Alura" class="cabecera__logo">
+    </header>
+
+    <main class="cuerpo">
+        <section class="cuerpo__encriptador">
+            <h1 class="cuerpo__encriptador__titulo cuerpo__botones__font">Encriptador de texto:</h1>
+
+            <textarea class="cuerpo__encriptador__texto cuerpo__botones__font" id="textArea" placeholder="Ingrese el texto aqui" onresize="none"></textarea>
+
+            <p class="info__input cuerpo__botones__font"><img src="./assets/exclamation-signo.svg" alt="Signo de exclamacion" class="info__img">  Sólo letras minúsculas y sin acentos.</p>
+
+            <div class="cuerpo__encriptador__botones">
+                <button class="cuerpo__encriptador__botones__encriptar cuerpo__botones__font" onclick="manejadorAcciones('encriptar')">Encriptar</button>
+                <button class="cuerpo__encriptador__botones__desencriptar cuerpo__botones__font" onclick="manejadorAcciones('desencriptar')">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="cuerpo__desencriptador">
+            <div class="cuerpo__desencriptador__box">
+                <img class="cuerpo__desencriptador__box__img" src="./assets/imagen-de-seccion-desencriptar.svg" alt="Una persona sentada en cunclillas con una lupa buscando algo">
+                <div class="cuerpo__desencriptador__box__texto">
+                    <p class="cuerpo__desencriptador__box__texto__1 cuerpo__botones__font">Ningún mensaje fue encontrado</p>
+                    <p class="cuerpo__desencriptador__box__texto__2 cuerpo__botones__font">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </div>
+
+            <div class="cuerpo__desencriptador__texto">
+                <p class="cuerpo__desencriptador__texto__encriptado cuerpo__botones__font"></p>
+                <button class="cuerpo__desencriptador__texto__boton cuerpo__botones__font" onclick="copiarContenido()">Copiar</button>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer class="pie">
+        <p class="pie__texto cuerpo__botones__font">Desarrollado por <a href="https://www.linkedin.com/in/matias-dasilva-web-develloper">Matias Da Silva</a></p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
