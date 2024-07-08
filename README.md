@@ -33,7 +33,7 @@ Este proyecto es una aplicación web para cifrar y descifrar texto.
 **Estructura del proyecto**
 ---------------------
 
-* El proyecto consta de un archivo index.html, un archivo estilos.css y un archivo scripts.js.
+* El proyecto consta de un archivo index.html, un archivo style.css y un archivo index.js.
 
 **CSS**
 -----
