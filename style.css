@@ -203,7 +203,7 @@ body{
     margin-top: 32px;
     font-size: 24px;
     color: var(--color-text-info);
-	word-break: break-word;
+    word-break: break-word;
 }
 
 .cuerpo__desencriptador__texto__boton{
