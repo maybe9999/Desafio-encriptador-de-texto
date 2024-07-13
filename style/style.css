@@ -26,6 +26,10 @@ body{
     font-style: normal;
     font-variation-settings: "slnt" 0;
 }
+
+a {
+    text-decoration: none;
+}
 /* --- FIN GENERAL --- */
 
 
@@ -70,13 +74,13 @@ body{
     font-weight: 450;
     font-size: 38px;
     align-self: flex-start;
-	color: var(--color-secundario);
+    color: var(--color-secundario);
 }
 
 .cuerpo__encriptador__texto{
     background-color: var(--color-primario);
     border: 0px solid rgba(255, 255, 255, 0) !important;
-	color: var(--color-secundario);
+    color: var(--color-secundario);
 
     width: 100%;
     height: 100%;
@@ -130,6 +134,9 @@ body{
     height: 67px;
     width: 50%;
     font-size: 16px;
+    a{
+        color: var(--color-secundario);
+    }
 }
 
 /*fin sección 1*/
