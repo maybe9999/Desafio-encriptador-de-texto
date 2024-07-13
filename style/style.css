@@ -124,6 +124,9 @@ a {
     width: 50%;
     font-size: 16px;
 }
+.cuerpo__encriptador__botones__encriptar a{
+    color: var(--color-terciario);
+}
 
 .cuerpo__encriptador__botones__desencriptar{
     background-color: var(--color-boton-desencriptar);
